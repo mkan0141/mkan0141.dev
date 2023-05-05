@@ -1,0 +1,32 @@
+---
+type LinkList = {
+  name: string;
+  path: string;
+};
+
+const linkList: LinkList[] = [
+  { name: 'TOP', path: '/' },
+  { name: 'ABOUT', path: '/about' },
+  { name: 'WORK', path: '/work' },
+  { name: 'BLOG', path: 'blog' },
+];
+---
+
+<header class="mx-auto mt-8 flex max-w-4xl">
+  <div class="font-bold text-slate-600">
+    <a href="/">mkan0141.dev</a>
+  </div>
+  <div class="ml-auto">
+    <nav>
+      <ul class="flex font-bold text-slate-600">
+        {
+          linkList.map(({ name, path }) => (
+            <li class="ml-6 duration-300 ease-out first:ml-0 hover:text-orange-400">
+              <a href={path}>{name}</a>
+            </li>
+          ))
+        }
+      </ul>
+    </nav>
+  </div>
+</header>
