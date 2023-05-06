@@ -1,6 +1,20 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": [
-    "config:base"
+  "extends": ["config:base"],
+  "timezone": "Azia",
+  "schedule": ["after 5am on Friday", "before 10am on Friday"],
+  "packageRules": [
+    {
+      "groupName": "eslint",
+      "matchPackagePrefixes": ["eslint", "@typescript-eslint"]
+    },
+    {
+      "groupName": "prettier",
+      "matchPackagePrefixes": ["prettier"]
+    },
+    {
+      "groupName": "astro",
+      "matchPackagePrefixes": ["astro", "@astrojs"]
+    }
   ]
 }
