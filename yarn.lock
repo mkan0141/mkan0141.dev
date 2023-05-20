@@ -4705,8 +4705,8 @@ fsevents@~2.3.2:
     eslint-plugin-astro: ^0.26.1
     eslint-plugin-jsx-a11y: ^6.7.1
     prettier: ^2.8.8
-    prettier-plugin-astro: ^0.8.0
-    prettier-plugin-tailwindcss: ^0.2.7
+    prettier-plugin-astro: ^0.9.0
+    prettier-plugin-tailwindcss: ^0.3.0
     sass: ^1.62.1
     tailwindcss: ^3.0.24
   languageName: unknown
@@ -5283,9 +5283,21 @@ fsevents@~2.3.2:
   languageName: node
   linkType: hard
 
-"prettier-plugin-tailwindcss@npm:^0.2.7":
-  version: 0.2.8
-  resolution: "prettier-plugin-tailwindcss@npm:0.2.8"
+"prettier-plugin-astro@npm:^0.9.0":
+  version: 0.9.0
+  resolution: "prettier-plugin-astro@npm:0.9.0"
+  dependencies:
+    "@astrojs/compiler": ^1.0.1
+    prettier: ^2.8.3
+    sass-formatter: ^0.7.5
+    synckit: ^0.8.4
+  checksum: 789a59ad879b033abb8e5fdfcb42d8f2d7f8dbee5cb8289f79c6aaffab000abeea723f209127ef7b910bf4b5bfdbc47a112dc45e1c512e709c38a97a0e5e80c8
+  languageName: node
+  linkType: hard
+
+"prettier-plugin-tailwindcss@npm:^0.3.0":
+  version: 0.3.0
+  resolution: "prettier-plugin-tailwindcss@npm:0.3.0"
   peerDependencies:
     "@ianvs/prettier-plugin-sort-imports": "*"
     "@prettier/plugin-pug": "*"
@@ -5297,6 +5309,7 @@ fsevents@~2.3.2:
     prettier-plugin-css-order: "*"
     prettier-plugin-import-sort: "*"
     prettier-plugin-jsdoc: "*"
+    prettier-plugin-marko: "*"
     prettier-plugin-organize-attributes: "*"
     prettier-plugin-organize-imports: "*"
     prettier-plugin-style-order: "*"
@@ -5321,6 +5334,8 @@ fsevents@~2.3.2:
       optional: true
     prettier-plugin-jsdoc:
       optional: true
+    prettier-plugin-marko:
+      optional: true
     prettier-plugin-organize-attributes:
       optional: true
     prettier-plugin-organize-imports:
@@ -5331,7 +5346,7 @@ fsevents@~2.3.2:
       optional: true
     prettier-plugin-twig-melody:
       optional: true
-  checksum: 0c99295f1f47b4d35a3e19d88e6b1aac58a60479a4317fb3c3a6522b51f6b5a28cfd9c03545749354b01ca4f8ec3edf7ba2a34596c5cc58a7022b1d850bbe6be
+  checksum: 007c09558433dac0c81d42fd9695f8ed17be56be2e446a03e2557f01ae8e26bb11945780f9afa4e6e90b861aad3fbfac6a65d381804273d5539e7d26b0a270c9
   languageName: node
   linkType: hard
 
