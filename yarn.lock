@@ -43,10 +43,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@astrojs/compiler@npm:^1.5.0":
-  version: 1.5.1
-  resolution: "@astrojs/compiler@npm:1.5.1"
-  checksum: 90b32391535d5e8f2896e67bb8bce307f4e09108537763fa0bcdc5e1c924453dad1fdcdb27a9c1aff83f8a97334b0e0f531352dc6edea6feea5e2f70a9520e55
+"@astrojs/compiler@npm:^1.5.5":
+  version: 1.8.2
+  resolution: "@astrojs/compiler@npm:1.8.2"
+  checksum: 1d55879f8f7aadcad02f19353c085d4e74d5f9cd0d873c600e31ad58928e80d6ab7d6e80b997e2fecabd697f69b0ae166acac58178b833d2d8051a2e35800dc2
   languageName: node
   linkType: hard
 
@@ -4896,8 +4896,8 @@ fsevents@~2.3.2:
     eslint-plugin-astro: ^0.29.0
     eslint-plugin-jsx-a11y: ^6.7.1
     prettier: ^3.0.0
-    prettier-plugin-astro: ^0.10.0
-    prettier-plugin-tailwindcss: ^0.3.0
+    prettier-plugin-astro: ^0.12.0
+    prettier-plugin-tailwindcss: ^0.5.0
     sass: ^1.62.1
     tailwindcss: ^3.0.24
   languageName: unknown
@@ -5471,14 +5471,14 @@ fsevents@~2.3.2:
   languageName: node
   linkType: hard
 
-"prettier-plugin-astro@npm:^0.10.0":
-  version: 0.10.0
-  resolution: "prettier-plugin-astro@npm:0.10.0"
+"prettier-plugin-astro@npm:^0.12.0":
+  version: 0.12.0
+  resolution: "prettier-plugin-astro@npm:0.12.0"
   dependencies:
-    "@astrojs/compiler": ^1.5.0
-    prettier: ^2.8.8
+    "@astrojs/compiler": ^1.5.5
+    prettier: ^3.0.0
     sass-formatter: ^0.7.6
-  checksum: 4cb68c274dde64e42c1e2eb080ecd70c79fbcdef6ab4ba40f5d9e246ac794842d36534b82c5231d59d0536e70de1502c9f4fe9a603897a38606339868749d5e3
+  checksum: 7282c8fed999ff232136126eceb98fd316a25386dba8dbe70bdccf529146f53ad20da6bc71fc6ff56ad444e73719a2a561ceb9ee6a1c8808ea6180b62dd0c2e9
   languageName: node
   linkType: hard
 
@@ -5494,26 +5494,24 @@ fsevents@~2.3.2:
   languageName: node
   linkType: hard
 
-"prettier-plugin-tailwindcss@npm:^0.3.0":
-  version: 0.3.0
-  resolution: "prettier-plugin-tailwindcss@npm:0.3.0"
+"prettier-plugin-tailwindcss@npm:^0.5.0":
+  version: 0.5.4
+  resolution: "prettier-plugin-tailwindcss@npm:0.5.4"
   peerDependencies:
     "@ianvs/prettier-plugin-sort-imports": "*"
     "@prettier/plugin-pug": "*"
     "@shopify/prettier-plugin-liquid": "*"
     "@shufo/prettier-plugin-blade": "*"
     "@trivago/prettier-plugin-sort-imports": "*"
-    prettier: ">=2.2.0"
+    prettier: ^3.0
     prettier-plugin-astro: "*"
     prettier-plugin-css-order: "*"
     prettier-plugin-import-sort: "*"
     prettier-plugin-jsdoc: "*"
-    prettier-plugin-marko: "*"
     prettier-plugin-organize-attributes: "*"
     prettier-plugin-organize-imports: "*"
     prettier-plugin-style-order: "*"
     prettier-plugin-svelte: "*"
-    prettier-plugin-twig-melody: "*"
   peerDependenciesMeta:
     "@ianvs/prettier-plugin-sort-imports":
       optional: true
@@ -5545,7 +5543,7 @@ fsevents@~2.3.2:
       optional: true
     prettier-plugin-twig-melody:
       optional: true
-  checksum: 007c09558433dac0c81d42fd9695f8ed17be56be2e446a03e2557f01ae8e26bb11945780f9afa4e6e90b861aad3fbfac6a65d381804273d5539e7d26b0a270c9
+  checksum: b4380e03a9f7aaf25f5d352fd145618497b5e9281bbd8c1a43e90a9a72daaf0585f8ac8bf5608e41481441caa4eb568c74556164a384de6a5533a196edab52b0
   languageName: node
   linkType: hard
 
@@ -5559,11 +5557,11 @@ fsevents@~2.3.2:
   linkType: hard
 
 "prettier@npm:^3.0.0":
-  version: 3.0.0
-  resolution: "prettier@npm:3.0.0"
+  version: 3.0.3
+  resolution: "prettier@npm:3.0.3"
   bin:
     prettier: bin/prettier.cjs
-  checksum: 6a832876a1552dc58330d2467874e5a0b46b9ccbfc5d3531eb69d15684743e7f83dc9fbd202db6270446deba9c82b79d24383d09924c462b457136a759425e33
+  checksum: e10b9af02b281f6c617362ebd2571b1d7fc9fb8a3bd17e371754428cda992e5e8d8b7a046e8f7d3e2da1dcd21aa001e2e3c797402ebb6111b5cd19609dd228e0
   languageName: node
   linkType: hard
 
